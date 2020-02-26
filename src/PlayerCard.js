@@ -8,9 +8,9 @@ export const PlayerCard = (props)=>{
   const sign = props.sign;
   let image = "";
 
-  if(sign == "rock"){
+  if(sign === "rock"){
     image = rock;
-  }else if(sign == "paper"){
+  }else if(sign === "paper"){
     image = paper;
   }else{
     image = scissors;
